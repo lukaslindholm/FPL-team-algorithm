@@ -2,7 +2,7 @@ Introduction:
 
 The algorithm is based on data from FPL form (https://fplform.com). For each player in the next gameweek, the data contains predicted points, probability of them appearing, and the product of these in separate columns,  
 which the site has determined using other data. The FPL price of every player is also included in the data. The algorithm is by no means certain to always find the optimal team based on the data, but it compares the resulting
-team to the best team possible without a price limit, from which it can be determined how realistic the result is. From my testing so far, I have found the difference to usually be relatively small.
+team to the best team possible without a price limit, from which it can be determined how realistic the result is. From my testing so far, I have found the difference to usually be relatively small. This is mostly a fun project to help me choose my fpl players in a creative way, as well as learning to use pandas and improving my coding skills.
 
 Algorithm step by step:
 
