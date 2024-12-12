@@ -33,3 +33,27 @@ After n tries, the resulting team should be a reasonably optimal valid FPL team.
 5
 
 Lastly, generate the best possible team without a price limit, and compare the two teams.
+
+
+Instructions for testing:
+
+Clone the repository:
+
+`git clone https://github.com/lukaslindholm/FPL-team-algorithm.git`
+
+`cd FPL-team-algorithm`
+
+Create a virtual environment and activate it:
+
+`python -m venv venv`
+
+`source venv/bin/activate`  # On Windows use `venv\Scripts\activate`
+
+Install the dependencies:
+
+`pip install -r requirements.txt`
+
+Run the algorithm:  
+`python code/algorithm.py`
+
+By following these steps, you will be able to set up the environment and run my code to see the output.
